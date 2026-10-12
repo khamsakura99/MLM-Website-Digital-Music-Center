@@ -1,0 +1,830 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7706
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+42.5196850393700814 799.3703149606299121 510.2406299212597673 -96.3779527559055254 re
+f
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.961 0.62 0.043 rg
+59.5275590551181182 768.1892125984252289 Td
+(OMC MLM ENTERPRISE SYSTEM) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+1. g
+59.5275590551181182 745.5120472440944468 Td
+(STEP-BY-STEP FTP DEPLOYMENT & DATABASE SETUP GUIDE) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.58 0.639 0.722 rg
+59.5275590551181182 722.8348818897637784 Td
+(Version 2.0 | Multi-Language \(TH, EN, LO\) | Production Ready) Tj
+ET
+0.95 0.96 0.98 rg
+42.5196850393700814 685.9844881889763428 510.2406299212597673 -56.6929133858267775 re
+f
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+53.8582677165354369 668.9766141732283131 Td
+(This comprehensive guide walks you through uploading the OMC MLM System to your web hosting) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+53.8582677165354369 651.9687401574802834 Td
+(server via FTP \(cPanel / DirectAdmin / Plesk / VPS\) and setting up the MySQL database.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.118 0.161 0.231 rg
+53.8582677165354369 634.9608661417322537 Td
+(Files included: Production static build, .htaccess, MySQL database script, and JSON data exports.) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 612.2837007874014716 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 598.1104724409448181 Td
+(1. PACKAGE CONTENTS & FILES OVERVIEW) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 581.1025984251967884 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 567.4962992125983874 Td
+([FILE] omc_mlm_ftp_dist.zip) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 567.4962992125983874 Td
+(Production ready website files \(drop directly into public_html\)) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 558.42543307086612 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 544.8191338582676053 Td
+([FILE] .htaccess) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 544.8191338582676053 Td
+(Apache SPA rewrite rules \(prevents 404 on page refresh\) + GZIP cache) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 535.748267716535338 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 522.1419685039370506 Td
+([FILE] omc_mlm_database.sql) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 522.1419685039370506 Td
+(Complete MySQL database schema + initial seed data + supported banks) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 513.0711023622046696 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 499.4648031496062686 Td
+([FILE] database_export.json) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 499.4648031496062686 Td
+(Full structured database export in JSON format) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 490.3939370078739444 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 476.7876377952754865 Td
+([FILE] db_connect.php) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 476.7876377952754865 Td
+(Ready-to-use PHP PDO database connection helper) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 467.7167716535432191 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 454.1104724409448181 Td
+([FILE] server.js) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+198.4251968503937178 454.1104724409448181 Td
+(Optional Node.js Express server script \(for VPS / Node.js hosting\)) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 433.7010236220471597 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 419.5277952755905062 Td
+(2. FTP CLIENT SETUP \(FileZilla / Cyberduck / WinSCP\)) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 391.1813385826770855 Td
+(Step 2.1: Open FileZilla Client \(or your preferred FTP client\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 374.1734645669290558 Td
+(Step 2.2: Go to File > Site Manager > New Site.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 357.1655905511810261 Td
+(Step 2.3: Host: Enter your server domain or IP address \(e.g., ftp.yourdomain.com\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 340.1577165354329964 Td
+(Step 2.4: Protocol: Select "FTP - File Transfer Protocol" \(or SFTP if using SSH key\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 323.1498425196849666 Td
+(Step 2.5: Encryption: Select "Use explicit FTP over TLS if available" or "Plain FTP".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 306.1419685039369369 Td
+(Step 2.6: Logon Type: Select "Normal" and input your FTP Username and Password.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 289.1340944881889072 Td
+(Step 2.7: Transfer Settings: Set Transfer mode to "Passive". Port: 21 \(or 22 for SFTP\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 272.1262204724408775 Td
+(Step 2.8: Click "Connect" and verify you are connected to the remote server directory tree.) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 255.1183464566928194 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 240.9451181102361943 Td
+(3. UPLOADING WEBSITE TO YOUR WEB SERVER \(public_html\)) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 212.5986614173227736 Td
+(Option A \(Via FTP Client\):) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 197.0081102362204319 Td
+(  1. Unzip "omc_mlm_ftp_dist.zip" on your local computer.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 181.4175590551179766 Td
+(  2. In FileZilla, navigate to remote directory "/public_html" \(or "/www" or your subdomain root\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 165.827007874015635 Td
+(  3. Select all extracted files \(index.html, assets folder, .htaccess\) and drag them into public_html.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 150.2364566929132934 Td
+(  4. Ensure ".htaccess" is uploaded \(make sure hidden files are visible in FileZilla: Server > Force showing hidden files\).) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 119.0553543307086102 Td
+(Option B \(Via cPanel File Manager - Fastest Method\):) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 103.4648031496061549 Td
+(  1. Log in to your cPanel hosting account.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 87.8742519685038133 Td
+(  2. Open "File Manager" and navigate to "public_html".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 72.2837007874014716 Td
+(  3. Click "Upload" and choose "omc_mlm_ftp_dist.zip".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 56.69314960629913 Td
+(  4. Right click the uploaded zip file and click "Extract".) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6658
+>>
+stream
+0.5670000000000001 w
+0 G
+0.06 0.09 0.16 rg
+42.5196850393700814 799.3703149606299121 510.2406299212597673 -22.677165354330711 re
+f
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+1. g
+51.0236220472441033 783.7797637795275705 Td
+(OMC MLM System - Server FTP & Database Setup Guide) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.2 0.255 0.333 rg
+51.0236220472441033 748.346692913385823 Td
+(  5. Verify "index.html" is in the root of public_html.) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 732.7561417322834814 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 718.5829133858267141 Td
+(4. MYSQL DATABASE CREATION & IMPORT VIA phpMyAdmin) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 690.2364566929134071 Td
+(Step 4.1: In cPanel, click "MySQL Database Wizard" or "MySQL Databases".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 673.2285826771653774 Td
+(Step 4.2: Create a new database \(e.g., "youruser_omcmlm"\).) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 656.2207086614173477 Td
+(Step 4.3: Create a database user and assign a strong password.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 639.212834645669318 Td
+(Step 4.4: Add the user to the database and grant "ALL PRIVILEGES".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 622.2049606299212883 Td
+(Step 4.5: Return to cPanel home and open "phpMyAdmin".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 605.1970866141732586 Td
+(Step 4.6: Click your newly created database in the left sidebar.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 588.1892125984251152 Td
+(Step 4.7: Click the "Import" tab at the top menu.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 571.1813385826771992 Td
+(Step 4.8: Click "Choose File" and select "omc_mlm_database.sql".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 554.1734645669291695 Td
+(Step 4.9: Ensure Character set is "utf8mb4" and click "Go" or "Import".) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 537.1655905511811397 Td
+(Step 4.10: You will see green success messages: 9 tables and initial seed data created successfully!) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 520.1577165354329964 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 505.9844881889763428 Td
+(5. APACHE .htaccess & PREVENTING 404 NOT FOUND ERRORS) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 477.6380314960629221 Td
+(Because this application is a modern Single Page Application \(SPA\), all routes \(e.g. /dashboard,) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 462.0474803149605805 Td
+(/genealogy, /admin\) are handled client-side by JavaScript. Without URL rewrite, refreshing a subpage) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 446.4569291338582389 Td
+(on Apache will cause a "404 Not Found" error.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 415.2758267716534988 Td
+(The included ".htaccess" file solves this completely by routing all requests to "index.html":) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 399.6852755905511003 Td
+(  RewriteEngine On) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 384.0947244094487587 Td
+(  RewriteCond %{REQUEST_FILENAME} !-f) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 368.5041732283464171 Td
+(  RewriteCond %{REQUEST_FILENAME} !-d) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 352.9136220472440186 Td
+(  RewriteRule . /index.html [L]) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.118 0.161 0.231 rg
+51.0236220472441033 321.7325196850392786 Td
+(Note: Ensure your web server has "mod_rewrite" enabled \(standard on 99% of cPanel and Apache servers\).) Tj
+ET
+0.12 0.23 0.54 rg
+42.5196850393700814 306.1419685039369369 510.2406299212597673 -19.8425196850393704 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+53.8582677165354369 291.9687401574802834 Td
+(6. DEFAULT TEST ACCOUNTS & SYSTEM ACCESS) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 274.9608661417321969 510.2406299212597673 -18.4251968503937036 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 262.2049606299211746 Td
+(Primary Member:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+170.0787401574803255 262.2049606299211746 Td
+(Code: TH889214 | Kittisak \(Diamond\) | PIN: 123456) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 253.7010236220471597 510.2406299212597673 -18.4251968503937036 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 240.9451181102361943 Td
+(Alternative Member 2:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+170.0787401574803255 240.9451181102361943 Td
+(Code: TH889502 | Natcha \(Gold\) | PIN: 123456) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 232.4411811023621226 510.2406299212597673 -18.4251968503937036 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 219.6852755905511003 Td
+(Alternative Member 3:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+170.0787401574803255 219.6852755905511003 Td
+(Code: TH890118 | Thanakorn \(Platinum\) | PIN: 123456) Tj
+ET
+0.97 0.98 0.99 rg
+42.5196850393700814 211.1813385826770855 510.2406299212597673 -18.4251968503937036 re
+f
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 0.09 0.165 rg
+51.0236220472441033 198.4254330708660063 Td
+(Admin Console:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.278 0.333 0.412 rg
+170.0787401574803255 198.4254330708660063 Td
+(Switch to Admin via user menu or Admin Mode button) Tj
+ET
+0.95 0.96 0.98 rg
+42.5196850393700814 189.9214960629920199 510.2406299212597673 -45.354330708661422 re
+f
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.118 0.161 0.231 rg
+53.8582677165354369 174.3309448818896499 Td
+(SUPPORT & VERIFICATION) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+53.8582677165354369 160.1577165354329964 Td
+(Your OMC MLM System includes Thai, English, and Lao language support + Lao bank integration.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.278 0.333 0.412 rg
+53.8582677165354369 148.8191338582676053 Td
+(Need assistance? Upload this PDF to your server administrator or technical hosting support.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261012055112-00'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000014757 00000 n 
+0000016582 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000007910 00000 n 
+0000008047 00000 n 
+0000014820 00000 n 
+0000014945 00000 n 
+0000015075 00000 n 
+0000015208 00000 n 
+0000015346 00000 n 
+0000015470 00000 n 
+0000015599 00000 n 
+0000015731 00000 n 
+0000015867 00000 n 
+0000015995 00000 n 
+0000016122 00000 n 
+0000016251 00000 n 
+0000016384 00000 n 
+0000016486 00000 n 
+0000016832 00000 n 
+0000016918 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <51F9B9754935F24B4C931449A66B02E8> <51F9B9754935F24B4C931449A66B02E8> ]
+>>
+startxref
+17022
+%%EOF

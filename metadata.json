@@ -1,0 +1,6 @@
+{
+  "name": "OMC MLM Member Portal",
+  "description": "Comprehensive Multi-Level Marketing (MLM) member back-office portal featuring genealogy tree, PV tracking, commission statements, e-wallet, autoship, and online store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,86 @@
+{
+  "version": "2.0.0",
+  "exportDate": "2026-10-12T05:51:12.044Z",
+  "system": "OMC MLM Enterprise System",
+  "supportedLanguages": [
+    "th",
+    "en",
+    "lo"
+  ],
+  "members": [
+    {
+      "id": "usr_001",
+      "memberCode": "TH889214",
+      "fullName": "กิตติศักดิ์ เจริญสุขสวัสดิ์",
+      "phone": "089-765-4321",
+      "rank": "Diamond",
+      "walletBalance": 84650,
+      "bank": {
+        "bankName": "ธนาคารกสิกรไทย (Kasikornbank)",
+        "bankCode": "KBANK",
+        "accountNumber": "045-8-91234-5"
+      }
+    },
+    {
+      "id": "usr_002",
+      "memberCode": "TH889502",
+      "fullName": "ณัชชา ภัทรไพศาล",
+      "phone": "081-234-5678",
+      "rank": "Gold",
+      "walletBalance": 19400,
+      "bank": {
+        "bankName": "ธนาคารไทยพาณิชย์ (SCB)",
+        "bankCode": "SCB",
+        "accountNumber": "112-2-90123-4"
+      }
+    }
+  ],
+  "supportedBanks": [
+    {
+      "code": "KBANK",
+      "nameTh": "ธนาคารกสิกรไทย",
+      "nameEn": "Kasikornbank",
+      "country": "TH"
+    },
+    {
+      "code": "SCB",
+      "nameTh": "ธนาคารไทยพาณิชย์",
+      "nameEn": "Siam Commercial Bank",
+      "country": "TH"
+    },
+    {
+      "code": "BBL",
+      "nameTh": "ธนาคารกรุงเทพ",
+      "nameEn": "Bangkok Bank",
+      "country": "TH"
+    },
+    {
+      "code": "BCEL",
+      "nameTh": "ธนาคารการค้าต่างประเทศลาว (BCEL)",
+      "nameEn": "BANQUE POUR LE COMMERCE EXTERIEUR LAO PUBLIC",
+      "nameLo": "ທະນາຄານການຄ້າຕ່າງປະເທດລາວ",
+      "country": "LA"
+    },
+    {
+      "code": "LDB",
+      "nameTh": "ธนาคารพัฒนาลาว (LDB)",
+      "nameEn": "Development Bank CO LTD (LDB)",
+      "nameLo": "ທະນາຄານພັດທະນາລາວ",
+      "country": "LA"
+    },
+    {
+      "code": "JDB",
+      "nameTh": "ธนาคารร่วมพัฒนา (JDB)",
+      "nameEn": "Joint Development Bank (JDB)",
+      "nameLo": "ທະນາຄານຮ່ວມພັດທະນາ",
+      "country": "LA"
+    },
+    {
+      "code": "VIETIN",
+      "nameTh": "ธนาคารเวียตินแบงก์ ลาว (VietinBank Lao)",
+      "nameEn": "VietinBank Lao | Vientiane",
+      "nameLo": "ທະນາຄານຫວຽດຕິນລາວ",
+      "country": "LA"
+    }
+  ]
+}
